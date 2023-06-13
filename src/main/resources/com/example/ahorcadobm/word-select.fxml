@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" stylesheets="@style/word.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ahorcadobm.WordSelectController">
+   <children>
+      <TableView fx:id="tableView" layoutX="13.0" layoutY="103.0" prefHeight="430.0" prefWidth="575.0">
+        <columns>
+          <TableColumn fx:id="palabraColumn" prefWidth="230.0" text="Palabra" />
+          <TableColumn fx:id="categoriaColumn" prefWidth="208.0" text="Categoría" />
+            <TableColumn fx:id="puntosColumn" prefWidth="121.0" text="Puntos" />
+        </columns>
+      </TableView>
+      <Label fx:id="jugadorQueElige" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="41.0" prefHeight="17.0" prefWidth="586.0" text="Placholder" textAlignment="CENTER" />
+      <Button fx:id="botonElegir" alignment="CENTER" contentDisplay="CENTER" disable="true" layoutX="231.0" layoutY="543.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="140.0" text="Elegir" />
+   </children>
+</AnchorPane>

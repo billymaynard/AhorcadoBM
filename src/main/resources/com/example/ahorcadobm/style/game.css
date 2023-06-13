@@ -1,0 +1,79 @@
+.title{
+    -fx-text-fill: #3F51B5;
+}
+.button-key {
+    -fx-background-color: #e48c72;
+    -fx-background-radius: 2px;
+    -fx-border-color: #e07150;
+    -fx-border-radius: 2px;
+    -fx-border-width: 3px;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+.button-key:hover {
+    -fx-background-color: #e75225;
+    -fx-font-weight: bolder;
+}
+.button-key:pressed {
+    -fx-background-color: #bfbfbf;
+}
+.usedgood {
+    -fx-background-color: #61e477;
+    -fx-background-radius: 2px;
+    -fx-border-color: #34831c;
+    -fx-border-radius: 2px;
+    -fx-border-width: 3px;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 18;
+    -fx-text-fill: #292c25ad;
+    -fx-font-weight: bold;
+}
+.usedbad {
+    -fx-background-color: #eb0606f5;
+    -fx-background-radius: 2px;
+    -fx-border-color: #0a0100;
+    -fx-border-radius: 2px;
+    -fx-border-width: 3px;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 18;
+    -fx-text-fill: #292c25ad;
+    -fx-font-weight: bold;
+}
+.word{
+    -fx-text-fill: #ec744f;
+}
+.toppane{
+    -fx-background-color: #666464b0;
+}
+.hiddenbuttons{
+    -fx-background-color: #1d1d96dc;
+    -fx-background-radius: 55px;
+    -fx-border-color: #040347fa;
+    -fx-border-radius: 50px;
+    -fx-border-width: 10px;
+    -fx-font-size: 18;
+    -fx-text-fill: #ecececfb;
+    -fx-font-weight: bold;
+}
+.hiddenbuttons:hover{
+    -fx-background-radius: 58px;
+    -fx-border-color: #040347fa;
+    -fx-border-radius: 55px;
+    -fx-border-width: 10px;
+    -fx-font-size: 20;
+    -fx-pref-width: 240px;
+    -fx-pref-height: 120px;
+    -fx-translate-x: -10;
+    -fx-translate-y: -5;
+    -fx-text-fill: #ecececfb;
+    -fx-font-weight: bold;
+}
+.winnermsg{
+    -fx-background-color: #1d1d96dc;
+    -fx-background-radius: 100px;
+    -fx-text-fill: white;
+}

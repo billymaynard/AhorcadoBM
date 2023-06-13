@@ -1,0 +1,20 @@
+0#$#Classic#$#W#$#Billy#$#L#$#Bueno#$#Canada#$#3
+1#$#Custom#$#L#$#Billy#$#Nueva Delhi#$#5
+2#$#Classic#$#L#$#Billy#$#W#$#Bueno#$#Paris#$#2
+3#$#Classic#$#L#$#Billy#$#Tren#$#2
+4#$#Classic#$#W#$#Billy#$#Ottawa#$#3
+5#$#Classic#$#W#$#Billy#$#Oro#$#1
+6#$#Classic#$#W#$#Bueno#$#Marron#$#3
+7#$#Classic#$#W#$#Billy#$#India#$#2
+8#$#Classic#$#W#$#Billy#$#Caracas#$#3
+9#$#Classic#$#L#$#Bueno#$#W#$#Moha#$#Moscu#$#2
+10#$#Classic#$#L#$#Bueno#$#Beijing#$#3
+11#$#Classic#$#L#$#Bueno#$#L#$#Billy#$#Brasilia#$#4
+12#$#Classic#$#L#$#Bueno#$#L#$#Billy#$#Bombero#$#3
+13#$#Classic#$#W#$#Bueno#$#L#$#Billy#$#Canada#$#3
+14#$#Classic#$#L#$#Moha#$#L#$#Bueno#$#Zebra#$#2
+15#$#Classic#$#W#$#Moha#$#L#$#Bueno#$#Azul Marino#$#5
+16#$#Classic#$#L#$#Moha#$#L#$#Bueno#$#Fucsia#$#3
+17#$#Custom#$#W#$#Bueno#$#Camaleon#$#4
+18#$#Custom#$#W#$#Billy#$#Pez Globo#$#4
+19#$#Custom#$#W#$#Bueno#$#Alemania#$#4

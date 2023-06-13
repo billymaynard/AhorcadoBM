@@ -1,0 +1,5 @@
+Billy;8;5;3;12;default.png
+Moha;4;2;2;7;default.png
+Cosme;0;0;0;0;default.png
+Bueno;12;5;7;16;default.png
+Mariano;0;0;0;0;default.png

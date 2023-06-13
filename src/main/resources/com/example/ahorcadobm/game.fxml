@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="891.0" stylesheets="@style/game.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ahorcadobm.GameController">
+   <children>
+      <ImageView fx:id="hangMan" fitHeight="303.0" fitWidth="293.0" layoutX="14.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Ahorca/placeholder.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="title" alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="78.0" prefWidth="891.0" stylesheets="@style/menu.css" text="HANGMAN" textAlignment="CENTER" />
+      <GridPane layoutX="315.0" layoutY="199.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="540.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="Q" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="W" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="E" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="R" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="T" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="Y" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="U" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="I" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="O" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="P" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="A" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="S" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="D" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="F" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="G" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="H" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="J" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="K" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="L" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="M" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="Z" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="X" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="C" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="V" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="B" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pulsarBotonLetra" prefHeight="50.0" prefWidth="50.0" styleClass="button-key" stylesheets="@style/game.css" text="N" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </GridPane>
+      <Label fx:id="word" alignment="CENTER" layoutY="448.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="891.0" text="placeholder_ _ _ _ _" textAlignment="CENTER" />
+      <Label fx:id="turnText" alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="24.0" prefHeight="86.0" prefWidth="420.0" text="turno de:" />
+      <Pane fx:id="hiddenPane" prefHeight="547.0" prefWidth="891.0" styleClass="toppane" visible="false">
+         <children>
+            <Label fx:id="winnerLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="42.0" prefHeight="166.0" prefWidth="529.0" styleClass="winnermsg" text="WINNER" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="nameLabel" alignment="CENTER" layoutX="181.0" layoutY="214.0" prefHeight="166.0" prefWidth="529.0" styleClass="winnermsg" text="playername" visible="false" />
+            <ImageView fx:id="gameOver" fitHeight="213.0" fitWidth="457.0" layoutX="264.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/gameover.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="volverButton" layoutX="44.0" layoutY="397.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="110.0" prefWidth="220.0" styleClass="hiddenbuttons" text="Volver" />
+            <Button fx:id="nuevaPartidaButton" layoutX="626.0" layoutY="397.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="220.0" styleClass="hiddenbuttons" text="Nueva Partida" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
